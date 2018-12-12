@@ -113,7 +113,7 @@ colnames(datasetNA)[15] =  "ADX.DIp"
 colnames(datasetNA)[16] = "ADX.DIn"
 colnames(datasetNA)[17] = "ADX.DX"
 
-write.csv(datasetNA, "eurTA29var.csv")
+#write.csv(datasetNA, "eurTA29var.csv")
 #colnames(datasetNA)["sar"] = "SAR"
 
 dataset = na.omit(datasetNA)
@@ -140,7 +140,7 @@ corrplot(correlations, method="circle")
 eur1 = eur
 eur1 = cbind(eur1,datasetNA)
 
-write.csv(eur1, "eurfinal50var.csv")
+#write.csv(eur1, "eurfinal50var.csv")
 #predict up/down, price, range?
 #divide into years
 ##################################################################################################################

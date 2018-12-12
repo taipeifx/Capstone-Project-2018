@@ -143,7 +143,7 @@ memory.limit(size=56000)
 ## I did this to increase my storage capacity to 7GB
 
 #save file
-write.csv(eur, "eur29var.csv", row.names = FALSE)
+#write.csv(eur, "eur29var.csv", row.names = FALSE)
 ################################################################################### TO DO 
 
 #hypothetical question, if SF of 1st floor was 1000, SF of basement was 1200, and pricing mattered if SF1 > SFBasement, would we need a new column 
